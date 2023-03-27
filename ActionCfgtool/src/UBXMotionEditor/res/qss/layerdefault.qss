@@ -1,0 +1,414 @@
+﻿/****************** Layer模块 ****************/
+
+/************ UILayerManager begin ************/
+
+
+QWidget#LayerManagerWidget
+{
+    background-color: #f4f8fb;
+}
+
+QWidget#widgetTitleContainer
+{
+    background-color: #f4f8fb;
+    border:0px;
+    border-top-width:2px;
+}
+
+QLabel#labelLayerTitle
+{
+    padding-left: 12px;
+    background-color: #f4f8fb;
+    color: #75a5b9;
+    font: 14px;
+}
+
+QPushButton#pBAddLayer
+{
+    qproperty-icon: url(:/res/images/btn_addLayer_nor.png);
+    qproperty-iconSize: 11px 13px;
+}
+
+QPushButton#pBAddLayer:hover
+{
+    qproperty-icon: url(:/res/images/btn_addLayer_nor.png);
+    qproperty-iconSize: 11px 13px;
+}
+
+QPushButton#pBAddLayer:pressed
+{
+    qproperty-icon: url(:/res/images/btn_addLayer_nor.png);
+    qproperty-iconSize: 11px 13px;
+}
+
+QPushButton#pbScaleSetting
+{
+    qproperty-icon: url(:/res/images/btn_settting_nor.png);
+    qproperty-iconSize: 11px 13px;
+}
+
+QPushButton#pbScaleSetting:pbScaleSetting
+{
+    qproperty-icon: url(:/res/images/btn_settting_nor.png);
+    qproperty-iconSize: 11px 13px;
+}
+
+QPushButton#pbScaleSetting:pressed
+{
+    qproperty-icon: url(:/res/images/btn_settting_nor.png);
+    qproperty-iconSize: 11px 13px;
+}
+
+/************ UILayerManager end ************/
+
+/************ widgetCommonContainer begin ************/
+
+
+
+QWidget#widgetCommonContainer
+{
+    background-color: transparent;
+}
+
+/****** btnZoom begin ******/
+QPushButton#btnZoomOut
+{
+    background-color: transparent;
+    border: 0px;
+    qproperty-icon: url(:/res/images/btn_reduce.png);
+    qproperty-iconSize: 12px 12px;
+}
+
+QPushButton#btnZoomOut:hover
+{
+    border-image: url(:/res/images/btn_reduce_sel.png);
+    background-color: transparent;
+    border: 0px;
+    qproperty-icon: url(:/res/images/btn_reduce.png);
+    qproperty-iconSize: 12px 12px;
+}
+
+QPushButton#btnZoomOut:pressed
+{
+    border-image: none;
+    background-color: transparent;
+    border: 0px;
+    qproperty-icon: url(:/res/images/btn_reduce.png);
+    qproperty-iconSize: 12px 12px;
+}
+
+QPushButton#btnZoomIn
+{
+    background-color: transparent;
+    border: 0px;
+    qproperty-icon: url(:/res/images/btn_magnifier.png);
+    qproperty-iconSize: 12px 12px;
+}
+
+QPushButton#btnZoomIn:hover
+{
+    border-image: url(:/res/images/btn_reduce_sel.png);
+    background-color: transparent;
+    border: 0px;
+    qproperty-icon: url(:/res/images/btn_magnifier.png);
+    qproperty-iconSize: 12px 12px;
+}
+
+QPushButton#btnZoomIn:pressed
+{
+    border-image: none;
+    background-color: transparent;
+    border: 0px;
+    qproperty-icon: url(:/res/images/btn_magnifier.png);
+    qproperty-iconSize: 12px 12px;
+}
+
+/****** btnZoom end ******/
+
+QScrollBar:horizontal {
+    border: none;
+    background: #f4f8f8;
+    height: 20px;
+}
+
+QScrollBar::handle:horizontal
+{
+    background: rgb(32, 179, 241);
+    min-width: 20px;
+    height: 10px;
+    margin: 5px 1px 5px 1px;
+    border-radius: 3px;
+    border: none;
+}
+
+QScrollBar::add-line:horizontal {
+    border: none;
+    background: none;
+    width: 0px;
+    height: 0px;
+}
+
+QScrollBar::sub-line:horizontal {
+    border: none;
+    background: none;
+    width: 0px;
+    height: 0px;
+}
+
+
+
+/************ widgetCommonContainer end ************/
+
+/************ widgetBtnContainer begin ************/
+
+QWidget#widgetBtnContainer
+{
+    background-color: #fffffe;
+}
+
+/****** label begin ******/
+/*
+QLabel#labelMusic
+{
+    border-image: url(:/res/images/icon_music.png);
+    background-color: transparent;
+    border: 0px;
+}
+
+QLabel#labelMotion
+{
+    border-image: url(:/res/images/icon_action.png);
+    background-color: transparent;
+    border: 0px;
+}
+
+QLabel#labelEarLed
+{
+    border-image: url(:/res/images/icon_action.png);
+    background-color: transparent;
+    border: 0px;
+}
+
+QLabel#labelEyeLed
+{
+    border-image: url(:/res/images/icon_action.png);
+    background-color: transparent;
+    border: 0px;
+}
+*/
+/****** label end ******/
+
+
+/****** widgetBtnContainer end ******/
+
+
+/****** LayerControlWidget begin ******/
+
+QPushButton#pbPlayLayer
+{
+    border-image: url(:/res/images/bg_btn_left.png);
+    qproperty-icon: url(:/res/images/ic_nor_play.png);
+    qproperty-iconSize: 9px 11px;
+}
+
+QPushButton#pbPlayLayer:hover
+{
+    border-image: url(:/res/images/bg_btn_left.png);
+    qproperty-icon: url(:/res/images/ic_hover_play.png);
+    qproperty-iconSize: 9px 11px;
+}
+
+QPushButton#pbPlayLayer:pressed
+{
+    border-image: url(:/res/images/bg_btn_left.png);
+    qproperty-icon: url(:/res/images/ic_press_play.png);
+    qproperty-iconSize: 9px 11px;
+}
+
+QPushButton#pbPauseLayer
+{
+    border-image: url(:/res/images/bg_btn_left.png);
+    qproperty-icon: url(:/res/images/ic_nor_pause.png);
+    qproperty-iconSize: 9px 11px;
+}
+
+QPushButton#pbPauseLayer:hover
+{
+    border-image: url(:/res/images/bg_btn_left.png);
+    qproperty-icon: url(:/res/images/ic_hover_pause.png);
+    qproperty-iconSize: 9px 11px;
+}
+
+QPushButton#pbPauseLayer:pressed
+{
+    border-image: url(:/res/images/bg_btn_left.png);
+    qproperty-icon: url(:/res/images/ic_press_pause.png);
+    qproperty-iconSize: 9px 11px;
+}
+
+QPushButton#pbStopLayer
+{
+    border-image: url(:/res/images/bg_btn_right.png);
+    qproperty-icon: url(:/res/images/ic_nor_stop.png);
+    qproperty-iconSize: 9px 9px;
+}
+
+QPushButton#pbStopLayer:hover
+{
+    border-image: url(:/res/images/bg_btn_right.png);
+    qproperty-icon: url(:/res/images/ic_hover_stop.png);
+    qproperty-iconSize: 9px 9px;
+}
+
+QPushButton#pbStopLayer:pressed
+{
+    border-image: url(:/res/images/bg_btn_right.png);
+    qproperty-icon: url(:/res/images/ic_press_stop.png);
+    qproperty-iconSize: 9px 9px;
+}
+
+QPushButton#pbAllLayerPlay
+{
+    border-image: url(:/res/images/bg_btn_left.png);
+    qproperty-icon: url(:/res/images/ic_start_top_nor.png);
+    qproperty-iconSize: 11px 13px;
+}
+
+QPushButton#pbAllLayerPlay:hover
+{
+    border-image: url(:/res/images/bg_btn_left.png);
+    qproperty-icon: url(:/res/images/ic_start_top_hover.png);
+    qproperty-iconSize: 11px 13px;
+}
+
+QPushButton#pbAllLayerPlay:pressed
+{
+    border-image: url(:/res/images/bg_btn_left.png);
+    qproperty-icon: url(:/res/images/ic_start_top_press.png);
+    qproperty-iconSize: 11px 13px;
+}
+
+QPushButton#pbAllLayerPause
+{
+    border-image: url(:/res/images/bg_btn_left.png);
+    qproperty-icon: url(:/res/images/ic_nor_pause.png);
+    qproperty-iconSize: 11px 13px;
+}
+
+QPushButton#pbAllLayerPause:hover
+{
+    border-image: url(:/res/images/bg_btn_left.png);
+    qproperty-icon: url(:/res/images/ic_hover_pause.png);
+    qproperty-iconSize: 11px 13px;
+}
+
+QPushButton#pbAllLayerPause:pressed
+{
+    border-image: url(:/res/images/bg_btn_left.png);
+    qproperty-icon: url(:/res/images/ic_press_pause.png);
+    qproperty-iconSize: 11px 13px;
+}
+
+QPushButton#pBAllLayerStop
+{
+    border-image: url(:/res/images/bg_btn_right.png);
+    qproperty-icon: url(:/res/images/ic_stop_nor_top.png);
+    qproperty-iconSize: 11px 11px;
+}
+
+QPushButton#pBAllLayerStop:hover
+{
+    border-image: url(:/res/images/bg_btn_right.png);
+    qproperty-icon: url(:/res/images/ic_stop_hover_top.png);
+    qproperty-iconSize: 11px 11px;
+}
+
+QPushButton#pBAllLayerStop:pressed
+{
+    border-image: url(:/res/images/bg_btn_right.png);
+    qproperty-icon: url(:/res/images/ic_start_top_press.png);
+    qproperty-iconSize: 11px 11px;
+}
+
+QWidget#LayerCommonWidget
+{
+    background-color: #eaeff1;
+}
+/****** LayerControlWidget end ******/
+
+
+/****** CDialogAddLayer begin ******/
+QDialog#CDialogAddLayer
+{
+    /*
+    background: transparent;
+    border-image: url(:/res/images/bg_dialog.png) no-repeat;
+    */
+    background: transparent;
+    border-image: url(:/res/images/bg_dialog.png) 62px 38px 38px 38px repeat;
+    border-width: 62px 38px 38px 38px;
+}
+
+/*关闭 按钮*/
+QPushButton#pbClose
+{
+    border-image: url(:/res/images/btn_close_dialog.png);
+}
+
+QPushButton#pbClose:hover
+{
+    background-image: url(:/res/images/btn_close_dialog.png);
+    border-image: url(:/res/images/icon_close_dialog.png);
+}
+
+QPushButton#pbCancel
+{
+    border-image: url(:/res/images/btn_insert_nor.png);
+    font:12px;
+    color: #75a5b9;
+}
+
+QPushButton#pbCancel:hover
+{
+    border-image: url(:/res/images/btn_insert_hl.png);
+    font:12px;
+    color: #ffffff;
+}
+
+QPushButton#pbCancel:pressed
+{
+    border-image: url(:/res/images/btn_insert_press.png);
+    font:12px;
+    color: #75a5b9;
+}
+
+QPushButton#pbOK
+{
+    border-image: url(:/res/images/btn_insert_nor.png);
+    font:12px;
+    color: #75a5b9;
+}
+
+QPushButton#pbOK:hover
+{
+    border-image: url(:/res/images/btn_insert_hl.png);
+    font:12px;
+    color: #ffffff;
+}
+
+QPushButton#pbOK:pressed
+{
+    border-image: url(:/res/images/btn_insert_press.png);
+    font:12px;
+    color: #75a5b9;
+}
+/****** CDialogAddLayer end ******/
+
+/************ CTimeSettingDialog start ************/
+QDialog#CTimeSettingDialog
+{
+    background: transparent;
+    border-image: url(:/res/images/bg_dialog.png) 62px 38px 38px 38px repeat;
+    border-width: 62px 38px 38px 38px;
+}
+/************ CTimeSettingDialog end ************/

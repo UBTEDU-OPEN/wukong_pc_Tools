@@ -1,0 +1,21 @@
+﻿{
+    "list":{
+		"system":[
+			{"fileName":"dance_0001", "displayName":"健康歌", "time": "106"},
+			{"fileName":"dance_0002", "displayName":"少林英雄", "time": "80"},
+			{"fileName":"dance_0003", "displayName":"青春修炼手册", "time": "150"},
+			{"fileName":"dance_0004", "displayName":"小星星", "time": "49"},
+			{"fileName":"dance_0005", "displayName":"甩葱歌", "time": "16"},
+			{"fileName":"dance_0006", "displayName":"海草舞", "time": "21"},
+			{"fileName":"dance_0007", "displayName":"洗澡歌", "time": "59"},
+			{"fileName":"dance_0008", "displayName":"虫儿飞", "time": "74"},
+			{"fileName":"dance_0012", "displayName":"Dura歌", "time": "24"},
+			{"fileName":"dance_0013", "displayName":"佛系少女", "time": "40"},
+			{"fileName":"dance_0014", "displayName":"98K", "time": "14"},
+			{"fileName":"dance_0015", "displayName":"拍灰舞", "time": "35"},
+			{"fileName":"dance_0016", "displayName":"摔群舞", "time": "35"},
+			{"fileName":"dance_0017", "displayName":"小可爱与小领带", "time": "19"},
+			{"fileName":"dance_0018", "displayName":"Toca Toca", "time": "33"}
+		]
+	}
+}

@@ -1,0 +1,12 @@
+﻿#ifndef UBXPLAYER_GLOBAL_H
+#define UBXPLAYER_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(UBXPLAYER_LIBRARY)
+#  define UBXPLAYERSHARED_EXPORT Q_DECL_EXPORT
+#else
+#  define UBXPLAYERSHARED_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // UBXPLAYER_GLOBAL_H

@@ -1,0 +1,196 @@
+﻿/***************fireware version begin********/
+/**************************title start******************/
+SystemEmbeddedUpdateWidget,QWidget#systemPCSoftVersionUI,QWidget#SystemEmbeddedUpdateWidget
+{
+    background: transparent;
+    border-image: url(:/res/images/bg_login.png) 38px 16px 16px 16px repeat;
+    border-width: 38px 16px 16px 16px;
+}
+
+QLabel#labelTitle
+{
+    font: 14px;
+    color:#5E5E5E;
+    margin:0px;
+    border:0px;
+    min-height:32px;
+    text-align:center;
+}
+
+/*关闭 按钮*/
+QPushButton#pbCloseMac
+{
+    border-image: url(:/res/images/btn_close.png);
+}
+QPushButton#pbCloseMac:hover
+{
+    background-image: url(:/res/images/btn_close.png);
+    border-image: url(:/res/images/icon_close.png);
+}
+
+/*关闭 按钮*/
+QPushButton#pbCloseWin
+{
+    border-image: url(:/res/images/icon_win_close_nor.png);
+}
+QPushButton#pbCloseWin:hover
+{
+    border-image: url(:/res/images/icon_win_close_sel.png);
+}
+QPushButton#pbCloseWin:pressed
+{
+    border-image: url(:/res/images/icon_win_close_press.png);
+}
+/**************************title end******************/
+
+/****************QLabel start*****************/
+QLabel
+{
+	background-color: transparent;
+	color: #d3d3d3;
+	font: 15px;
+	border:1px;
+}
+/****************QLabel end*****************/
+
+/****************QTextEdit start*****************/
+QTextEdit
+{
+	background-color: transparent;
+	color: #d3d3d3;
+	border: 2px solid #363636;
+	font: 13px;
+}
+/****************QTextEdit end*****************/
+
+/****************QpushButton start*****************/
+QPushButton
+{
+    border-image: url(:/res/images/btn_login_press.png);
+    font:12pt;
+    color: #d3d3d3;
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+
+}
+QPushButton:hover
+{
+    border-image: url(:/res/images/btn_login_hl.png);
+    font:12pt;
+    color: #d3d3d3;
+}
+QPushButton:checked
+{
+    border-image: url(:/res/images/btn_login_press.png);
+    font:12pt;
+    color: #d3d3d3;
+}
+
+QPushButton:disabled
+{
+    color: #808080;
+}
+/****************QpushButton end*****************/
+
+/****************QScrollBar start*****************/
+QScrollBar:horizontal {
+    border: none;
+    background: #2e2e2e;
+    height: 20px;
+}
+
+QScrollBar::handle:horizontal
+{
+    background: rgb(100, 100, 100);
+    min-width: 20px;
+    height: 10px;
+    margin: 5px 1px 5px 1px;
+    border-radius: 3px;
+    border: none;
+}
+
+QScrollBar::add-line:horizontal
+{
+    border: none;
+    background: none;
+    width: 0px;
+    height: 0px;
+}
+
+QScrollBar::sub-line:horizontal
+{
+    border: none;
+    background: none;
+    width: 0px;
+    height: 0px;
+}
+
+QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal {
+    background: none;
+}
+
+
+QScrollBar:vertical
+{
+    border: none;
+    background: #2e2e2e;
+    width: 20px;
+}
+
+QScrollBar::handle:vertical
+{
+    background: rgb(100, 100, 100);
+    min-height: 20px;
+    width: 10px;
+    margin: 1px 5px 1px 5px;
+    border-radius: 3px;
+    border: none;
+}
+
+QScrollBar::add-line:vertical
+{
+    border: none;
+    background: none;
+    width: 0px;
+    height: 0px;
+}
+
+QScrollBar::sub-line:vertical
+{
+    border: none;
+    background: none;
+    width: 0px;
+    height: 0px;
+}
+
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+    background: none;
+}
+/****************QScrollBar end*****************/
+
+QProgressDialog
+{
+    background: #404040;
+}
+
+QProgressBar
+{
+    border: none;
+    background-color: #484848;
+    text-align: center;
+    font: 14px;
+    color: #d3d3d3;
+}
+
+QProgressBar::chunk
+{
+    background-color: #17a9f4;
+}
+/****** 设置QProgressDialog End*****/
+QMessageBox
+{
+    background:transparent;
+}
+/***************fireware version end********/

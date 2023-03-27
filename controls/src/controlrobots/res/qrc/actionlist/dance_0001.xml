@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set>
+<action seqNo="1" name="dance_0001" delayTime="0" loopCount="1" ></action>
+<led seqNo="1" delayTime="0"  loopCount="1" effect="2" color="#000000"   runTime="0" ></led>
+<set delayTime="0" seqNo="1" loopCount="1">
+<express seqNo="1" name="dance_0001" delayTime="0" loopCount="1" ></express>
+</set>
+</set>

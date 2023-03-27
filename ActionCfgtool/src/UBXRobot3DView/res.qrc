@@ -1,0 +1,30 @@
+﻿<RCC>
+    <qresource prefix="/">
+        <file>res/qss/3dviewdefault.qss</file>
+        <file>res/images/icon_dot_nor.png</file>
+        <file>res/images/icon_dot_sel.png</file>
+        <file>res/images/btn_reset_hl.png</file>
+        <file>res/images/btn_reset_nor.png</file>
+        <file>res/images/btn_reset_press.png</file>
+        <file>res/images/icon_reset.png</file>
+        <file>res/images/icon_add.png</file>
+        <file>res/images/icon_power.png</file>
+        <file>res/images/icon_reduce.png</file>
+        <file>res/images/line.png</file>
+        <file>res/images/icon_slider.png</file>
+        <file>res/images/btn_read_hl.png</file>
+        <file>res/images/btn_read_nor.png</file>
+        <file>res/images/btn_read_press.png</file>
+        <file>res/images/icon_foot.png</file>
+        <file>res/images/icon_hand.png</file>
+        <file>res/images/icon_whole.png</file>
+        <file>res/images/btn_power_hl.png</file>
+        <file>res/images/btn_power_nor.png</file>
+        <file>res/images/btn_power_press.png</file>
+        <file>res/images/img_robot.png</file>
+        <file>res/images/img_robot_bg.png</file>
+        <file>res/images/bg_btn_hl.png</file>
+        <file>res/images/bg_btn_nor.png</file>
+        <file>res/images/bg_btn_press.png</file>
+    </qresource>
+</RCC>

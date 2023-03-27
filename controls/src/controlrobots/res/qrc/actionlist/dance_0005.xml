@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set>
+<action seqNo="1" name="dance_0005" delayTime="1" loopCount="0" ></action>
+<music seqNo="1" uri="file:///dance_0005.mp3" loopCount="1" delayTime="0"></music>
+<set delayTime="0" seqNo="1" loopCount="1">
+<express seqNo="1" name="dance_0005" delayTime="0" loopCount="1" ></express>
+<express seqNo="2" name="001blink" delayTime="0"  loopCount="1" ></express>
+</set>
+</set>

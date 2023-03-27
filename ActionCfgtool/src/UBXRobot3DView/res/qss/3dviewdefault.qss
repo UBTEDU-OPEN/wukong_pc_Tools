@@ -1,0 +1,301 @@
+﻿/*****************************3DView模块***************************/
+
+/*********** UBXRobot3DControl Widget begin ***********/
+
+QWidget#UBXRobot3DControl
+{
+    background-color: transparent;
+    background-color: #f4f8f8;
+}
+
+QLabel#labelAlpha
+{
+    padding-left: 12px;
+    background-color: #ffffff;
+    color: #75a5b9;
+    font: 14pt;
+    border:1px;
+    border-top-width:5px;
+    border-right-width:5px;
+}
+
+/*********** UBXRobot3DControl Widget end ***********/
+
+/*********** widgetAlphaBG Widget begin ***********/
+
+QWidget#widgetAlphaBG
+{
+    background-color: transparent;
+    background-color: transparent;
+    background-color: #fffffe;
+   /* border-image: url(:/res/images/img_robot_bg.png);*/
+}
+
+QWidget#widgetAlpha
+{
+    background-image: url(:/res/images/img_robot.png);
+}
+
+QPushButton#pushButtonReset
+{
+    background:transparent;
+    border-image: url(:/res/images/bg_btn_nor.png);
+    qproperty-icon: url(:/res/images/icon_reset.png);
+    qproperty-iconSize: 25px 21px;
+}
+
+QPushButton#pushButtonReset:hover
+{
+    background:transparent;
+    border-image: url(:/res/images/bg_btn_hl.png);
+    qproperty-icon: url(:/res/images/icon_reset.png);
+    qproperty-iconSize: 25px 21px;
+}
+
+QPushButton#pushButtonReset:pressed
+{
+    background:transparent;
+    border-image: url(:/res/images/bg_btn_press.png);
+    qproperty-icon: url(:/res/images/icon_reset.png);
+    qproperty-iconSize: 25px 21px;
+}
+
+QPushButton#btnMotor1, QPushButton#btnMotor2, QPushButton#btnMotor3, QPushButton#btnMotor4,
+QPushButton#btnMotor5, QPushButton#btnMotor6, QPushButton#btnMotor7, QPushButton#btnMotor8,
+QPushButton#btnMotor9, QPushButton#btnMotor10, QPushButton#btnMotor11, QPushButton#btnMotor12,
+QPushButton#btnMotor13, QPushButton#btnMotor14, QPushButton#btnMotor15, QPushButton#btnMotor16,
+QPushButton#btnMotor17, QPushButton#btnMotor18, QPushButton#btnMotor19, QPushButton#btnMotor20
+{
+    /*border-image: url(:/res/images/icon_dot_nor.png);*/
+    background:transparent;
+    border:none;
+    border-radius:4px;
+    background-color:#6495ED;
+    color: #FFFFFF;
+    font:12pt;
+}
+
+QPushButton#btnMotor1:checked, QPushButton#btnMotor2:checked, QPushButton#btnMotor3:checked, QPushButton#btnMotor4:checked,
+QPushButton#btnMotor5:checked, QPushButton#btnMotor6:checked, QPushButton#btnMotor7:checked, QPushButton#btnMotor8:checked,
+QPushButton#btnMotor9:checked, QPushButton#btnMotor10:checked, QPushButton#btnMotor11:checked, QPushButton#btnMotor12:checked,
+QPushButton#btnMotor13:checked, QPushButton#btnMotor14:checked, QPushButton#btnMotor15:checked, QPushButton#btnMotor16:checked,
+QPushButton#btnMotor17:checked, QPushButton#btnMotor18:checked, QPushButton#btnMotor19:checked, QPushButton#btnMotor20:checked
+{
+    /*border-image: url(:/res/images/icon_dot_sel.png);*/
+    background:transparent;
+    background-color: #00008B;
+    color:#FFFFFF;
+    font:12pt;
+}
+
+/*********** widgetAlphaBG Widget begin ***********/
+
+/*********** widgetOpContainer Widget begin ***********/
+
+QWidget#widgetOpContainer
+{
+    background-color: #ffffff;
+}
+
+QLabel#labelSliderNum
+{
+   /*border-image: url(:/res/images/bg_btn_nor.png);*/
+    background-color: transparent;
+    color: #00bfff;
+    font: 12px;
+}
+
+QLabel#labelIDOperation
+{
+    background-color: transparent;
+    color: #75a5b9;
+    font: 11pt;
+}
+
+QLabel#labelIDOperationValue
+{
+    background-color: transparent;
+    color: #75a5b9;
+    font: 12pt;
+}
+
+QSlider#horizontalSliderAngle::groove:horizontal {
+    height: 4px;
+    background-color: #ecf3f6;
+    /*background-image: url(:/res/images/line.png);*/
+    left: 9px;
+    right: 9px;
+}
+
+QSlider#horizontalSliderAngle::handle:horizontal {
+    border-image: url(:/res/images/icon_slider.png);
+    width: 17px;
+    height: 17px;
+    margin:-8px;
+}
+
+QPushButton#pushButtonPowerOff
+{
+    border-image: url(:/res/images/bg_btn_nor.png);
+    qproperty-icon: url(:/res/images/icon_power.png);
+    qproperty-iconSize: 21px 19px;
+}
+
+QPushButton#pushButtonPowerOff:hover
+{
+    border-image: url(:/res/images/bg_btn_hl.png);
+    qproperty-icon: url(:/res/images/icon_power.png);
+    qproperty-iconSize: 21px 19px;
+}
+
+QPushButton#pushButtonPowerOff:pressed
+{
+    border-image: url(:/res/images/bg_btn_press.png);
+    qproperty-icon: url(:/res/images/icon_power.png);
+    qproperty-iconSize: 21px 19px;
+}
+
+QPushButton#pushButtonMinus
+{
+    border-image: url(:/res/images/bg_btn_nor.png);
+    qproperty-icon: url(:/res/images/icon_reduce.png);
+    qproperty-iconSize: 21px 19px;
+}
+
+QPushButton#pushButtonMinus:hover
+{
+    border-image: url(:/res/images/bg_btn_hl.png);
+    qproperty-icon: url(:/res/images/icon_reduce.png);
+    qproperty-iconSize: 21px 19px;
+}
+
+QPushButton#pushButtonMinus:pressed
+{
+    border-image: url(:/res/images/bg_btn_press.png);
+    qproperty-icon: url(:/res/images/icon_reduce.png);
+    qproperty-iconSize: 21px 19px;
+}
+
+QPushButton#pushButtonPlus
+{
+    border-image: url(:/res/images/bg_btn_nor.png);
+    qproperty-icon: url(:/res/images/icon_add.png);
+    qproperty-iconSize: 21px 19px;
+}
+
+QPushButton#pushButtonPlus:hover
+{
+    border-image: url(:/res/images/bg_btn_hl.png);
+    qproperty-icon: url(:/res/images/icon_add.png);
+    qproperty-iconSize: 21px 19px;
+}
+
+QPushButton#pushButtonPlus:pressed
+{
+    border-image: url(:/res/images/bg_btn_press.png);
+    qproperty-icon: url(:/res/images/icon_add.png);
+    qproperty-iconSize: 21px 19px;
+}
+
+
+QToolButton#pushButtonHandReadBack
+{
+    border-image: url(:/res/images/bg_btn_nor.png);
+    qproperty-icon: url(:/res/images/icon_hand.png);
+    qproperty-iconSize: 15px 16px;
+    font: 12pt;
+    color: #75a5b9;
+}
+QToolButton#pushButtonHandReadBack:hover
+{
+    border-image: url(:/res/images/bg_btn_hl.png);
+    qproperty-icon: url(:/res/images/icon_hand.png);
+    qproperty-iconSize: 15px 16px;
+    font: 12pt;
+    color: #75a5b9;
+}
+QToolButton#pushButtonHandReadBack:pressed
+{
+    border-image: url(:/res/images/bg_btn_press.png);
+    qproperty-icon: url(:/res/images/icon_hand.png);
+    qproperty-iconSize: 15px 16px;
+    font: 12pt;
+    color: #75a5b9;
+}
+
+QToolButton#pushButtonReadAll
+{
+    border-image: url(:/res/images/bg_btn_nor.png);
+    qproperty-icon: url(:/res/images/icon_whole.png);
+    qproperty-iconSize: 15px 16px;
+    font: 12pt;
+    color: #75a5b9;
+}
+QToolButton#pushButtonReadAll:hover
+{
+    border-image: url(:/res/images/bg_btn_hl.png);
+    qproperty-icon: url(:/res/images/icon_whole.png);
+    qproperty-iconSize: 15px 16px;
+    font: 12pt;
+    color: #75a5b9;
+}
+QToolButton#pushButtonReadAll:pressed
+{
+    border-image: url(:/res/images/bg_btn_press.png);
+    qproperty-icon: url(:/res/images/icon_whole.png);
+    qproperty-iconSize: 15px 16px;
+    font: 12pt;
+    color: #75a5b9;
+}
+
+QToolButton#pushButtonLegReadback
+{
+    border-image: url(:/res/images/bg_btn_nor.png);
+    qproperty-icon: url(:/res/images/icon_foot.png);
+    qproperty-iconSize: 17px 13px;
+    font: 12pt;
+    color: #75a5b9;
+}
+QToolButton#pushButtonLegReadback:hover
+{
+    border-image: url(:/res/images/bg_btn_hl.png);
+    qproperty-icon: url(:/res/images/icon_foot.png);
+    qproperty-iconSize: 17px 13px;
+    font: 12pt;
+    color: #75a5b9;
+}
+QToolButton#pushButtonLegReadback:pressed
+{
+    border-image: url(:/res/images/bg_btn_press.png);
+    qproperty-icon: url(:/res/images/icon_foot.png);
+    qproperty-iconSize: 17px 13px;
+    font: 12pt;
+    color: #75a5b9;
+}
+
+QToolButton#btnHeadReadBack
+{
+    border-image: url(:/res/images/bg_btn_nor.png);
+    qproperty-icon: url(:/res/images/icon_hand.png);
+    qproperty-iconSize: 17px 13px;
+    font: 12pt;
+    color: #75a5b9;
+}
+QToolButton#btnHeadReadBack:hover
+{
+    border-image: url(:/res/images/bg_btn_hl.png);
+    qproperty-icon: url(:/res/images/icon_hand.png);
+    qproperty-iconSize: 17px 13px;
+    font: 12pt;
+    color: #75a5b9;
+}
+QToolButton#btnHeadReadBack:pressed
+{
+    border-image: url(:/res/images/bg_btn_press.png);
+    qproperty-icon: url(:/res/images/icon_hand.png);
+    qproperty-iconSize: 17px 13px;
+    font: 12pt;
+    color: #75a5b9;
+}
+
+/*********** widgetOpContainer Widget begin ***********/

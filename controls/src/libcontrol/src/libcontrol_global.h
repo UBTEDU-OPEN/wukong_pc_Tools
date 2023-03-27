@@ -1,0 +1,14 @@
+﻿#ifndef LIBCONTROL_GLOBAL_H
+#define LIBCONTROL_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(LIBCONTROL_LIBRARY)
+#  define LIBCONTROLSHARED_EXPORT Q_DECL_EXPORT
+#else
+#  define LIBCONTROLSHARED_EXPORT Q_DECL_IMPORT
+#endif
+
+#define SHADOW_WIDTH 5
+
+#endif // LIBCONTROL_GLOBAL_H

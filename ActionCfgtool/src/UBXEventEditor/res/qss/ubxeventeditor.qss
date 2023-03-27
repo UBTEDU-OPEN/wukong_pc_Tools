@@ -1,0 +1,120 @@
+﻿/***************************** UBXEventEditor 模块 ***************************/
+
+QWidget#UBXEventEditorWidget
+{
+    background-color: #ffffff;
+    border:0px;
+    border-bottom:1px solid #75a5b9;
+}
+
+QTabWidget#tabWidget_eventeditor::pane
+{ /* The tab widget frame */
+    border: none;
+    background: transparent;
+    margin: 0px;
+    padding: 0px;
+}
+
+QTabWidget#tabWidget_eventeditor::tab-bar
+{
+    border: none;
+    background: transparent;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Style the tab using the tab sub-control. Note that
+    it reads QTabBar _not_ QTabWidget */
+QTabBar::tab
+{
+    border-image: url(:/res/images/btn_system_nor.png);
+    font:14px;
+    color: #75a5b9;
+    min-width: 80px;
+    min-height: 25px;
+    margin: 0px;
+    padding: 0px;
+}
+
+QTabBar::tab:selected, QTabBar::tab:hover
+{
+    border-image: url(:/res/images/btn_system_hl.png);
+    font:14px;
+    color: #20b3f1;
+    margin: 0px;
+    padding: 0px;
+}
+
+QTabBar::tab:selected
+{
+    border-image: url(:/res/images/btn_system_nor.png);
+    font:14px;
+    color: #20b3f1;
+    margin: 0px;
+    padding: 0px;
+}
+
+QToolButton#toolButton_eventeditor1, QToolButton#toolButton_eventeditor2
+{
+    background-color: transparent;
+    font:12pt;
+    color: #d3d3d3;
+}
+
+QComboBox
+{
+	border:1px solid #20b3f1;
+	min-width: 65px;
+	min-height: 20px;
+}
+
+QComboBox:editable
+{
+    background:#FFFFFF;
+}
+
+QComboBox::drop-down
+{
+    width:0px;
+    height:0px;
+}
+
+QComboBox::down-arrow
+{
+    width:0px;
+    height:0px;
+    border:none;
+    background:transparent;
+}
+
+QComboBox::down-arrow:on
+{
+    width:0px;
+    height:0px;
+    border:none;
+    background:transparent;
+}
+
+
+QPushButton
+{
+    background:transparent;
+	min-width: 70px;
+	min-height:20px;
+    font:14px;
+    color: #75a5b9;
+}
+
+QPushButton:hover
+{
+    border-image: url(:/res/images/btn_system_nor.png);
+    font:14px;
+    color: #75a5b9;
+}
+
+QPushButton:pressed
+{
+    border-image: url(:/res/images/btn_system_nor.png);
+    font:14px;
+    color: #75a5b9;
+}

@@ -1,0 +1,372 @@
+QDialog#UControlDialog QPushButton#minBtn
+{
+	background: transparent;
+	border-image: url(:/png/png/btn_Minimize_Normal.png);
+}
+
+QDialog#UControlDialog QPushButton#minBtn:hover
+{
+	background: transparent;
+	border-image: url(:/png/png/btn_Minimize_Hover.png);
+}
+
+QDialog#UControlDialog QPushButton#minBtn:pressed
+{
+	background: transparent;
+	border-image: url(:/png/png/btn_Minimize_Pressed.png);
+}
+
+QDialog#UControlDialog QPushButton#maxBtn
+{
+	background: transparent;
+	border-image: url(:/png/png/btn_Maximize_Normal.png);
+}
+
+QDialog#UControlDialog QPushButton#maxBtn:hover
+{
+	background: transparent;
+	border-image: url(:/png/png/btn_Maximize_Hover.png);
+}
+
+QDialog#UControlDialog QPushButton#maxBtn:pressed
+{
+	background: transparent;
+	border-image: url(:/png/png/btn_Maximize_Pressed.png);
+}
+
+QDialog#UControlDialog QPushButton#closeBtn
+{
+	background: transparent;
+	border-image: url(:/png/png/btn_Close_Normal.png);
+}
+
+QDialog#UControlDialog QPushButton#closeBtn:hover
+{
+	background: transparent;
+	border-image: url(:/png/png/btn_Close_Hover.png);
+}
+
+QDialog#UControlDialog QPushButton#closeBtn:pressed
+{
+	background: transparent;
+	border-image: url(:/png/png/btn_Close_Pressed.png);
+}
+
+QDialog#UControlDialog QPushButton#menuBtn
+{
+	background: transparent;
+	border-image: url(:/png/png/BtnMenu_Normal.png);
+}
+
+QDialog#UControlDialog QPushButton#menuBtn:hover
+{
+	background: transparent;
+	border-image: url(:/png/png/BtnMenu_Hover.png);
+}
+
+QDialog#UControlDialog QPushButton#menuBtn:pressed
+{
+	background: transparent;
+	border-image: url(:/png/png/BtnMenu_Pressed.png);
+}
+
+QDialog#UControlDialog QWidget#leftWidget
+{
+	background: transparent;
+	border-image: url(:/png/png/bg_tool.png);
+}
+
+QDialog#UControlDialog QToolButton
+{
+    background:transparent;
+	height: 46px;
+	margin-left: 20px;
+	font-size: 18px;
+	color: #FFFFFF;
+}
+
+QDialog#UControlDialog QToolButton:hover
+{
+	background: transparent;
+	border-image: url(:/png/png/img_hover/press.png);
+	margin-left: 0px;
+	padding-left: 44px;
+}
+
+QDialog#UControlDialog QToolButton:pressed
+{
+	background: transparent;
+	border-image: url(:/png/png/img_hover/press.png);
+	margin-left: 0px;
+	padding-left: 44px;
+}
+
+QDialog#UControlDialog QToolButton:disabled
+{
+	background: transparent;
+	font-size: 18px;
+	color: #7685B6;
+	margin-left: 20px;
+}
+
+QDialog#UControlDialog QLabel#logoLabel
+{
+	background: transparent;
+	background-image: url(:/png/png/logo.png);
+}
+
+QDialog#UControlDialog QWidget#titleWidget
+{
+	background: transparent;
+	border-image: url(:/png/png/bg_title_unconnect.png);
+}
+
+QDialog#UControlDialog QPushButton#connectBtn
+{
+	background: transparent;
+	font-size: 18px;
+	color: #02BBF1;
+	text-align: middle;
+	padding: 4px 10px 4px 10px;
+	background-image: url(:/png/png/bg_button_normal.png);
+}
+
+QDialog#UControlDialog QPushButton#connectBtn:hover
+{
+	background: transparent;
+	background-image: url(:/png/png/bg_button_press/hover.png);
+}
+
+QDialog#UControlDialog QPushButton#connectBtn:pressed
+{
+	background: transparent;
+	background-image: url(:/png/png/bg_button_press/hover.png);
+}
+
+QDialog#UControlDialog QLabel#unconnectLabel
+{
+	background: transparent;
+	background-image: url(:/png/png/img_unconnect.png);
+}
+
+QDialog#UControlDialog QLabel#unconnectTopLabel
+{
+	background: transparent;
+	font-size: 18px;
+	color: #7685B6;
+	text-align: center;
+}
+
+QDialog#UControlDialog QLabel#unconnectBottomLabel
+{
+	background: transparent;
+	font-size: 18px;
+	color: #7685B6;
+	text-align: center;
+}
+
+QScrollBar:horizontal	
+{
+   background:transparent;
+   height:15px;
+}
+
+QScrollBar::handle:horizontal
+{
+   background:lightgray;
+   border:2px solid transparent;
+   border-radius:5px;
+}
+
+QScrollBar::handle:horizontal:hover
+{
+   background:gray;
+}
+
+QScrollBar::sub-line:horizontal
+{
+   background:transparent;
+}
+
+QScrollBar::add-line:horizontal
+{
+   background:transparent;
+}
+
+QScrollBar:vertical
+{
+   background:transparent;
+   width:15px;
+}
+
+QScrollBar::handle:vertical
+{
+   background:lightgray;
+   border:2px solid transparent;
+   border-radius:5px;
+}
+
+QScrollBar::handle:vertical:hover
+{
+   background:gray;
+}
+
+QScrollBar::sub-line:vertical
+{
+   background:transparent;
+}
+
+QScrollBar::add-line:vertical
+{
+   background:transparent;
+}
+
+QDialog#UControlDialog QWidget#rightWidget
+{
+	background: transparent;
+	background-color:#F5F6FA;
+}
+
+QDialog#UControlDialog QWidget#unconnectWidget
+{
+	background: transparent;
+	background-color:#FFFFFF;
+	border:none;
+    border:1px solid #828790;
+}
+
+QDialog#UControlDialog QTableWidget#playTableWidget::item
+{
+	background-color:#FFFFFF;
+	font-size: 14px;
+	color: #6A6A6A;
+	padding-left: 29px;
+}
+
+QDialog#UControlDialog QTableWidget#playTableWidget::item:selected
+{
+    border-image:url(:/png/png/img_list_hover/press.png);
+}
+
+QDialog#UControlDialog QPushButton#playBtn
+{
+	background: transparent;
+	border-image: url(:/png/png/ic_play_normal.png);
+}
+
+QDialog#UControlDialog QPushButton#playBtn:hover
+{
+	background: transparent;
+	border-image: url(:/png/png/ic_play_press_hover.png);
+}
+
+QDialog#UControlDialog QPushButton#playBtn:pressed
+{
+	background: transparent;
+	border-image: url(:/png/png/ic_play_press_hover.png);
+}
+
+QDialog#UControlDialog QPushButton#stopBtn
+{
+	background: transparent;
+	border-image: url(:/png/png/ic_stop_normal.png);
+}
+
+QDialog#UControlDialog QPushButton#stopBtn:hover
+{
+	background: transparent;
+	border-image: url(:/png/png/ic_stop_press_hover.png);
+}
+
+QDialog#UControlDialog QPushButton#stopBtn:pressed
+{
+	background: transparent;
+	border-image: url(:/png/png/ic_stop_press_hover.png);
+}
+
+QDialog#UControlDialog QPushButton#loopPlayBtn
+{
+	background: transparent;
+	border-image: url(:/png/png/ic_single_play.png);
+}
+
+QDialog#UControlDialog QPushButton#loopPlayBtn:hover
+{
+	background: transparent;
+	border-image: url(:/png/png/ic_single_play_hover.png);
+}
+
+QDialog#UControlDialog QPushButton#loopPlayBtn:pressed
+{
+	background: transparent;
+	border-image: url(:/png/png/ic_single_play_hover.png);
+}
+
+QDialog#UControlDialog QLabel#titleLabel
+{
+	background: transparent;
+	font-size: 36px;
+	color: #FFFFFF;
+}
+
+QDialog#UControlDialog QLabel#spacerLabel
+{
+	background: transparent;
+}
+
+QDialog#UControlDialog QToolTip
+{
+    font-size:14px;
+    background-color: rgb(200,200,255);
+    border-color: darkslategray;
+    border-width: 1px;
+    border-style: solid;
+    padding: 1px;
+    font: bold;
+    border-radius: 3px;
+    opacity: 200;
+}
+
+QComboBox
+{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 3px;
+    padding: 1px 18px 1px 3px;
+}
+
+QComboBox:on
+{
+    padding-left: 4px;
+    padding-top: 3px;
+}
+
+QComboBox::drop-down
+{
+    border-bottom-right-radius: 3px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-top-right-radius: 3px;
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 15px;
+}
+
+QComboBox::down-arrow:on
+{
+    right: 4px;
+    top: 1px;
+}
+
+QComboBox::down-arrow
+{
+    image: url(:/png/png/array_down.png);
+    right: 5px;
+}
+
+QComboBox QAbstractItemView::item
+{
+    min-height: 50px;
+}
+
+

@@ -1,0 +1,145 @@
+QProgressBar{
+    border:2px solid grey;
+    border-radius:5px;
+    text-align: center;
+}
+
+QProgressBar::chunk{
+    background-color:#05B8CC;
+    width:10px;
+    margin:0.5px;
+}
+
+QPushButton{
+    background:transparent;
+    font-size: 12px;
+    height: 25px;
+    width:  80px;
+    outline: none;
+    border-radius:6px;
+    background-color: rgb(199, 199, 199);
+}
+
+QPushButton:hover{
+    background:transparent;
+    background-color: rgb(145, 204, 234);
+}
+
+QPushButton:pressed{
+    background-color: rgb(70, 127, 221);
+}
+
+QPushButton:disabled{
+    background:transparent;
+    background-color: rgb(218, 218, 218);
+    color:rgb(95,95,95);   /*按钮的文字颜色*/
+}
+
+QComboBox{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 3px;
+    padding: 1px 18px 1px 3px;
+	font-size:14px;
+}
+
+QComboBox:on{
+    padding-left: 4px;
+    padding-top: 3px;
+}
+
+QComboBox::drop-down{
+    border-bottom-right-radius: 3px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-top-right-radius: 3px;
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 15px;
+}
+
+QComboBox::down-arrow:on{
+    right: 4px;
+    top: 1px;
+}
+
+QComboBox::down-arrow{
+    image: url(:/png/png/array_down.png);
+    right: 5px;
+}
+
+QComboBox QAbstractItemView::item{
+    height: 20px;
+}
+
+QScrollBar:horizontal{
+	background:transparent;
+	height:15px;
+}
+
+QScrollBar::handle:horizontal{
+	background:lightgray;
+	border:2px solid transparent;
+	border-radius:5px;
+}
+
+QScrollBar::handle:horizontal:hover{
+	background:gray;
+}
+
+QScrollBar::sub-line:horizontal{
+	background:transparent;
+}
+
+QScrollBar::add-line:horizontal{
+	background:transparent;
+}
+
+QScrollBar:vertical{
+	background:transparent;
+	width:15px;
+}
+
+QScrollBar::handle:vertical{
+	background:lightgray;
+	border:2px solid transparent;
+	border-radius:5px;
+}
+
+QScrollBar::handle:vertical:hover{
+	background:gray;
+}
+
+QScrollBar::sub-line:vertical{
+	background:transparent;
+}
+
+QScrollBar::add-line:vertical{
+	background:transparent;
+}
+
+QMenu{
+	background-color: rgb(245, 245, 245);
+	border: 1px solid gray;
+	padding: 1px;
+	font-size: 12px;
+}
+
+QMenu::item { 
+	background-color: transparent;
+	padding:0px 10px 0px 12px;
+	border: 1px solid transparent;
+	height: 18px;
+}
+
+QMenu::item:selected {
+	background:transparent;
+	background-color: rgb(146, 206, 237);
+}
+
+QDialog#CUdpSendFileDialog QLabel#warningLabel{
+	background: transparent;
+	font-size: 18px;
+	color: #bc121a;
+}
+

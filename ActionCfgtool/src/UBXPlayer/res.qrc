@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/qss/ubxplayer.qss</file>
+        <file>res/images/icon_pause_hl.png</file>
+        <file>res/images/icon_pause_nor.png</file>
+        <file>res/images/icon_pause_press.png</file>
+        <file>res/images/icon_play_nor.png</file>
+        <file>res/images/icon_play_press.png</file>
+        <file>res/images/icon_play_hl.png</file>
+        <file>res/images/icon_stop_hl.png</file>
+        <file>res/images/icon_stop_nor.png</file>
+        <file>res/images/icon_stop_press.png</file>
+        <file>res/images/icon_play_position.png</file>
+        <file>res/images/icon_changed_volume.png</file>
+        <file>res/images/btn_play_video.png</file>
+        <file>res/images/icon_volume_mute.png</file>
+    </qresource>
+</RCC>

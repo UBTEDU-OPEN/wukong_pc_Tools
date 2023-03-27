@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/images/bg_action_lib.png</file>
+        <file>res/qss/ubxeventeditor.qss</file>
+        <file>res/images/btn_system_hl.png</file>
+        <file>res/images/btn_system_nor.png</file>
+        <file>res/images/btn_system_select.png</file>
+        <file>res/images/ic_monitor.png</file>
+    </qresource>
+</RCC>

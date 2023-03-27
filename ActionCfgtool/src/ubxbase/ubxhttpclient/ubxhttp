@@ -1,0 +1,9 @@
+#ifndef _UBXHTTP_H
+#define _UBXHTTP_H
+
+#include "httpbase.h"
+#include "httpclient.h"
+#include "httprequest.h"
+#include "httpresponse.h"
+
+#endif // _UBXHTTP_H

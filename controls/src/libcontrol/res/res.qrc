@@ -1,0 +1,31 @@
+<RCC>
+    <qresource prefix="/png">
+        <file>btn_Close_Hover.png</file>
+        <file>btn_Close_Normal.png</file>
+        <file>btn_Close_Pressed.png</file>
+        <file>btn_Maximize_Hover.png</file>
+        <file>btn_Maximize_Normal.png</file>
+        <file>btn_Maximize_Pressed.png</file>
+        <file>btn_Minimize_Hover.png</file>
+        <file>btn_Minimize_Normal.png</file>
+        <file>btn_Minimize_Pressed.png</file>
+        <file>dl_BtnOk_Hover.png</file>
+        <file>dl_BtnOk_Normal.png</file>
+        <file>dl_BtnOk_Pressed.png</file>
+        <file>logo_ubt.png</file>
+        <file>shadow/Shadow_Bottom.png</file>
+        <file>shadow/Shadow_Left.png</file>
+        <file>shadow/Shadow_Left_Bottom.png</file>
+        <file>shadow/Shadow_Left_Top.png</file>
+        <file>shadow/Shadow_Right.png</file>
+        <file>shadow/Shadow_Right_Bottom.png</file>
+        <file>shadow/Shadow_Right_Top.png</file>
+        <file>shadow/Shadow_Top.png</file>
+        <file>BtnMenu_Hover.png</file>
+        <file>BtnMenu_Normal.png</file>
+        <file>BtnMenu_Pressed.png</file>
+        <file>BtnRevert_Hover.png</file>
+        <file>BtnRevert_Normal.png</file>
+        <file>BtnRevert_Pressed.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,108 @@
+﻿UBXVideoPlayer
+{
+    background: #404040;
+}
+
+VideoPlayerContrlWidget
+{
+    background: transparent;
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+}
+
+/***************播放器控制按钮start***************/
+QPushButton#pbVideoPlay
+{
+    border-image: url(:/res/images/icon_play_nor.png);
+    background-color: transparent;
+    border: 0px; 
+    min-height: 27px;
+    max-height: 27px;
+    min-width: 27px;
+    max-width: 27px;
+}
+
+QPushButton#pbVideoPlay:hover
+{
+    border-image: url(:/res/images/icon_play_hl.png);
+    background-color: transparent;
+    border: 0px;  
+}
+
+QPushButton#pbVideoPlay:pressed
+{
+    border-image: url(:/res/images/icon_play_press.png);
+    background-color: transparent;
+    border: 0px;    
+}
+
+QPushButton#pbVideoPause
+{
+    border-image: url(:/res/images/icon_pause_nor.png);
+    background-color: transparent;
+    border: 0px;
+    min-height: 27px;
+    max-height: 27px;
+    min-width: 27px;
+    max-width: 27px;    
+}
+
+QPushButton#pbVideoPause:hover
+{
+    border-image: url(:/res/images/icon_pause_hl.png);
+    background-color: transparent;
+    border: 0px;  
+}
+
+QPushButton#pbVideoPause:pressed
+{
+    border-image: url(:/res/images/icon_pause_press.png);
+    background-color: transparent;
+    border: 0px;  
+}
+
+QPushButton#pbVideoStop
+{
+    border-image: url(:/res/images/icon_stop_nor.png);
+    background-color: transparent;
+    border: 0px;
+    min-height: 27px;
+    max-height: 27px;
+    min-width: 27px;
+    max-width: 27px;    
+}
+
+QPushButton#pbVideoStop:hover
+{
+    border-image: url(:/res/images/icon_stop_hl.png);
+    background-color: transparent;
+    border: 0px;
+}
+
+QPushButton#pbVideoStop:pressed
+{
+    border-image: url(:/res/images/icon_stop_press.png);
+    background-color: transparent;
+    border: 0px;
+}
+QSlider::groove:horizontal {
+    height: 1px;
+    background-color: #10b5e5;
+    left: 7px;
+    right: 7px;
+}
+
+QSlider::handle:horizontal {
+    border-image: url(:/res/images/icon_play_position.png);
+    width: 14px;
+    margin: -7px -7px -7px -7px;
+}
+
+QLabel
+{
+    background:transparent;
+	color: #d3d3d3;
+}
+/***************播放器控制按钮end***************/
+

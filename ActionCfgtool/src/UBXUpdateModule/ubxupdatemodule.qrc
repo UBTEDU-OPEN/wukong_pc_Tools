@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/qss/UBXUpdateModuleDefault.qss</file>
+    </qresource>
+</RCC>

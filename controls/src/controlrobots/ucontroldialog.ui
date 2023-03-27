@@ -1,0 +1,1397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>UControlDialog</class>
+ <widget class="QDialog" name="UControlDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1360</width>
+    <height>768</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>UControlDialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_10">
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <item row="0" column="0">
+    <widget class="QWidget" name="widget" native="true">
+     <layout class="QGridLayout" name="gridLayout_4">
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <item row="0" column="0">
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <property name="spacing">
+         <number>0</number>
+        </property>
+        <item>
+         <widget class="QWidget" name="leftWidget" native="true">
+          <property name="minimumSize">
+           <size>
+            <width>226</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>226</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_3">
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <property name="spacing">
+            <number>0</number>
+           </property>
+           <item row="0" column="0">
+            <layout class="QVBoxLayout" name="verticalLayout_5">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <item>
+              <layout class="QHBoxLayout" name="horizontalLayout_4">
+               <property name="spacing">
+                <number>0</number>
+               </property>
+               <item>
+                <spacer name="horizontalSpacer_6">
+                 <property name="orientation">
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                 <property name="sizeType">
+                  <enum>QSizePolicy::Fixed</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>24</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+               <item>
+                <layout class="QVBoxLayout" name="verticalLayout_2">
+                 <property name="spacing">
+                  <number>0</number>
+                 </property>
+                 <property name="sizeConstraint">
+                  <enum>QLayout::SetFixedSize</enum>
+                 </property>
+                 <item>
+                  <spacer name="verticalSpacer_3">
+                   <property name="orientation">
+                    <enum>Qt::Vertical</enum>
+                   </property>
+                   <property name="sizeType">
+                    <enum>QSizePolicy::Fixed</enum>
+                   </property>
+                   <property name="sizeHint" stdset="0">
+                    <size>
+                     <width>20</width>
+                     <height>60</height>
+                    </size>
+                   </property>
+                  </spacer>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="logoLabel">
+                   <property name="minimumSize">
+                    <size>
+                     <width>140</width>
+                     <height>55</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>140</width>
+                     <height>55</height>
+                    </size>
+                   </property>
+                   <property name="text">
+                    <string/>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <spacer name="verticalSpacer_4">
+                   <property name="orientation">
+                    <enum>Qt::Vertical</enum>
+                   </property>
+                   <property name="sizeType">
+                    <enum>QSizePolicy::Fixed</enum>
+                   </property>
+                   <property name="sizeHint" stdset="0">
+                    <size>
+                     <width>20</width>
+                     <height>60</height>
+                    </size>
+                   </property>
+                  </spacer>
+                 </item>
+                </layout>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_3">
+               <property name="spacing">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="QToolButton" name="activeToolBtn">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>225</width>
+                   <height>46</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>225</width>
+                   <height>46</height>
+                  </size>
+                 </property>
+                 <property name="toolTip">
+                  <string/>
+                 </property>
+                 <property name="text">
+                  <string> 激活集控</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="res/res.qrc">
+                   <normaloff>:/png/png/ic_activation_normal.png</normaloff>
+                   <disabledoff>:/png/png/ic_activation_unconnect.png</disabledoff>:/png/png/ic_activation_normal.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>30</width>
+                   <height>30</height>
+                  </size>
+                 </property>
+                 <property name="toolButtonStyle">
+                  <enum>Qt::ToolButtonTextBesideIcon</enum>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QToolButton" name="standToolBtn">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>225</width>
+                   <height>46</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>225</width>
+                   <height>46</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string> 站立待命</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="res/res.qrc">
+                   <normaloff>:/png/png/ic_standby_stand_normal.png</normaloff>
+                   <disabledoff>:/png/png/ic_standby_stand_unconnect.png</disabledoff>:/png/png/ic_standby_stand_normal.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>30</width>
+                   <height>30</height>
+                  </size>
+                 </property>
+                 <property name="toolButtonStyle">
+                  <enum>Qt::ToolButtonTextBesideIcon</enum>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QToolButton" name="spuatToolBtn">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>225</width>
+                   <height>46</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>225</width>
+                   <height>46</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string> 蹲下待命</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="res/res.qrc">
+                   <normaloff>:/png/png/ic_standby_squat_normal.png</normaloff>
+                   <disabledoff>:/png/png/ic_standby_squat_unconnect.png</disabledoff>:/png/png/ic_standby_squat_normal.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>30</width>
+                   <height>30</height>
+                  </size>
+                 </property>
+                 <property name="toolButtonStyle">
+                  <enum>Qt::ToolButtonTextBesideIcon</enum>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QToolButton" name="powerToolBtn">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>225</width>
+                   <height>46</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>225</width>
+                   <height>46</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string> 电量显示</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="res/res.qrc">
+                   <normaloff>:/png/png/ic_battery_normal.png</normaloff>
+                   <disabledoff>:/png/png/ic_battery_unconnect.png</disabledoff>:/png/png/ic_battery_normal.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>30</width>
+                   <height>30</height>
+                  </size>
+                 </property>
+                 <property name="toolButtonStyle">
+                  <enum>Qt::ToolButtonTextBesideIcon</enum>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QToolButton" name="dynamicToolBtn">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>225</width>
+                   <height>46</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>225</width>
+                   <height>46</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string> 动态播放</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="res/res.qrc">
+                   <normaloff>:/png/png/ic_playing_normal.png</normaloff>
+                   <disabledoff>:/png/png/ic_playing_unconnect.png</disabledoff>:/png/png/ic_playing_normal.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>30</width>
+                   <height>30</height>
+                  </size>
+                 </property>
+                 <property name="toolButtonStyle">
+                  <enum>Qt::ToolButtonTextBesideIcon</enum>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QToolButton" name="quitToolBtn">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>225</width>
+                   <height>46</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>225</width>
+                   <height>46</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string> 退出集控</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="res/res.qrc">
+                   <normaloff>:/png/png/ic_quit_normal.png</normaloff>
+                   <disabledoff>:/png/png/ic_quit_unconnect.png</disabledoff>:/png/png/ic_quit_normal.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>30</width>
+                   <height>30</height>
+                  </size>
+                 </property>
+                 <property name="toolButtonStyle">
+                  <enum>Qt::ToolButtonTextBesideIcon</enum>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <spacer name="verticalSpacer_6">
+               <property name="orientation">
+                <enum>Qt::Vertical</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>20</width>
+                 <height>40</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_4">
+               <property name="spacing">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="Line" name="line">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>5</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>5</height>
+                  </size>
+                 </property>
+                 <property name="orientation">
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <layout class="QHBoxLayout" name="horizontalLayout_6">
+                 <property name="spacing">
+                  <number>0</number>
+                 </property>
+                 <item>
+                  <widget class="QToolButton" name="turnoffToolBtn">
+                   <property name="minimumSize">
+                    <size>
+                     <width>225</width>
+                     <height>46</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>225</width>
+                     <height>46</height>
+                    </size>
+                   </property>
+                   <property name="toolTip">
+                    <string/>
+                   </property>
+                   <property name="layoutDirection">
+                    <enum>Qt::LeftToRight</enum>
+                   </property>
+                   <property name="text">
+                    <string> 关机</string>
+                   </property>
+                   <property name="icon">
+                    <iconset resource="res/res.qrc">
+                     <normaloff>:/png/png/ic_poweroff_normal.png</normaloff>
+                     <disabledoff>:/png/png/ic_poweroff_unconnect.png</disabledoff>:/png/png/ic_poweroff_normal.png</iconset>
+                   </property>
+                   <property name="iconSize">
+                    <size>
+                     <width>30</width>
+                     <height>30</height>
+                    </size>
+                   </property>
+                   <property name="toolButtonStyle">
+                    <enum>Qt::ToolButtonTextBesideIcon</enum>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <spacer name="verticalSpacer_5">
+                   <property name="orientation">
+                    <enum>Qt::Vertical</enum>
+                   </property>
+                   <property name="sizeType">
+                    <enum>QSizePolicy::Fixed</enum>
+                   </property>
+                   <property name="sizeHint" stdset="0">
+                    <size>
+                     <width>1</width>
+                     <height>100</height>
+                    </size>
+                   </property>
+                  </spacer>
+                 </item>
+                </layout>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QWidget" name="rightWidget" native="true">
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <layout class="QGridLayout" name="gridLayout">
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <property name="spacing">
+            <number>0</number>
+           </property>
+           <item row="0" column="0">
+            <layout class="QVBoxLayout" name="verticalLayout_10">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <item>
+              <layout class="QHBoxLayout" name="horizontalLayout_3">
+               <property name="spacing">
+                <number>0</number>
+               </property>
+               <item>
+                <spacer name="horizontalSpacer_2">
+                 <property name="orientation">
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>40</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+               <item>
+                <layout class="QHBoxLayout" name="horizontalLayout_2">
+                 <item>
+                  <widget class="QPushButton" name="menuBtn">
+                   <property name="minimumSize">
+                    <size>
+                     <width>25</width>
+                     <height>23</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>25</width>
+                     <height>23</height>
+                    </size>
+                   </property>
+                   <property name="text">
+                    <string/>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="minBtn">
+                   <property name="minimumSize">
+                    <size>
+                     <width>25</width>
+                     <height>23</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>25</width>
+                     <height>23</height>
+                    </size>
+                   </property>
+                   <property name="text">
+                    <string/>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="maxBtn">
+                   <property name="minimumSize">
+                    <size>
+                     <width>25</width>
+                     <height>23</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>25</width>
+                     <height>23</height>
+                    </size>
+                   </property>
+                   <property name="text">
+                    <string/>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="closeBtn">
+                   <property name="minimumSize">
+                    <size>
+                     <width>25</width>
+                     <height>23</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>25</width>
+                     <height>23</height>
+                    </size>
+                   </property>
+                   <property name="text">
+                    <string/>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+               <item>
+                <spacer name="horizontalSpacer">
+                 <property name="orientation">
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                 <property name="sizeType">
+                  <enum>QSizePolicy::Fixed</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>8</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <widget class="QWidget" name="titleWidget" native="true">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                 <horstretch>0</horstretch>
+                 <verstretch>1</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>100</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>100</height>
+                </size>
+               </property>
+               <layout class="QGridLayout" name="gridLayout_2">
+                <property name="leftMargin">
+                 <number>0</number>
+                </property>
+                <property name="topMargin">
+                 <number>0</number>
+                </property>
+                <property name="rightMargin">
+                 <number>0</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>0</number>
+                </property>
+                <property name="spacing">
+                 <number>0</number>
+                </property>
+                <item row="0" column="0">
+                 <layout class="QHBoxLayout" name="horizontalLayout_15">
+                  <property name="spacing">
+                   <number>0</number>
+                  </property>
+                  <item>
+                   <layout class="QVBoxLayout" name="verticalLayout_11">
+                    <property name="spacing">
+                     <number>0</number>
+                    </property>
+                    <item>
+                     <spacer name="verticalSpacer_12">
+                      <property name="orientation">
+                       <enum>Qt::Vertical</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>20</width>
+                        <height>18</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_14">
+                      <property name="spacing">
+                       <number>0</number>
+                      </property>
+                      <item>
+                       <widget class="QLabel" name="spacerLabel">
+                        <property name="minimumSize">
+                         <size>
+                          <width>144</width>
+                          <height>0</height>
+                         </size>
+                        </property>
+                        <property name="maximumSize">
+                         <size>
+                          <width>144</width>
+                          <height>16777215</height>
+                         </size>
+                        </property>
+                        <property name="text">
+                         <string/>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QLabel" name="titleLabel">
+                        <property name="minimumSize">
+                         <size>
+                          <width>144</width>
+                          <height>50</height>
+                         </size>
+                        </property>
+                        <property name="maximumSize">
+                         <size>
+                          <width>16777215</width>
+                          <height>50</height>
+                         </size>
+                        </property>
+                        <property name="text">
+                         <string>集控中心</string>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <spacer name="verticalSpacer_13">
+                      <property name="orientation">
+                       <enum>Qt::Vertical</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>20</width>
+                        <height>18</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                   </layout>
+                  </item>
+                  <item>
+                   <spacer name="horizontalSpacer_18">
+                    <property name="orientation">
+                     <enum>Qt::Horizontal</enum>
+                    </property>
+                    <property name="sizeHint" stdset="0">
+                     <size>
+                      <width>358</width>
+                      <height>20</height>
+                     </size>
+                    </property>
+                   </spacer>
+                  </item>
+                  <item>
+                   <layout class="QVBoxLayout" name="verticalLayout_6">
+                    <property name="spacing">
+                     <number>0</number>
+                    </property>
+                    <item>
+                     <spacer name="verticalSpacer_7">
+                      <property name="orientation">
+                       <enum>Qt::Vertical</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>108</width>
+                        <height>25</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_5">
+                      <property name="spacing">
+                       <number>0</number>
+                      </property>
+                      <item>
+                       <widget class="QPushButton" name="connectBtn">
+                        <property name="minimumSize">
+                         <size>
+                          <width>136</width>
+                          <height>34</height>
+                         </size>
+                        </property>
+                        <property name="maximumSize">
+                         <size>
+                          <width>16777215</width>
+                          <height>34</height>
+                         </size>
+                        </property>
+                        <property name="text">
+                         <string> 未连接</string>
+                        </property>
+                        <property name="iconSize">
+                         <size>
+                          <width>24</width>
+                          <height>24</height>
+                         </size>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <spacer name="horizontalSpacer_8">
+                        <property name="orientation">
+                         <enum>Qt::Horizontal</enum>
+                        </property>
+                        <property name="sizeType">
+                         <enum>QSizePolicy::Fixed</enum>
+                        </property>
+                        <property name="sizeHint" stdset="0">
+                         <size>
+                          <width>20</width>
+                          <height>40</height>
+                         </size>
+                        </property>
+                       </spacer>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <spacer name="verticalSpacer_8">
+                      <property name="orientation">
+                       <enum>Qt::Vertical</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>28</width>
+                        <height>25</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                   </layout>
+                  </item>
+                 </layout>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_9">
+               <property name="spacing">
+                <number>0</number>
+               </property>
+               <item>
+                <spacer name="verticalSpacer">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeType">
+                  <enum>QSizePolicy::Fixed</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>20</width>
+                   <height>30</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+               <item>
+                <layout class="QHBoxLayout" name="horizontalLayout_13">
+                 <property name="spacing">
+                  <number>0</number>
+                 </property>
+                 <item>
+                  <spacer name="horizontalSpacer_3">
+                   <property name="orientation">
+                    <enum>Qt::Horizontal</enum>
+                   </property>
+                   <property name="sizeType">
+                    <enum>QSizePolicy::Fixed</enum>
+                   </property>
+                   <property name="sizeHint" stdset="0">
+                    <size>
+                     <width>20</width>
+                     <height>20</height>
+                    </size>
+                   </property>
+                  </spacer>
+                 </item>
+                 <item>
+                  <layout class="QVBoxLayout" name="verticalLayout">
+                   <property name="spacing">
+                    <number>0</number>
+                   </property>
+                   <item>
+                    <layout class="QHBoxLayout" name="horizontalLayout_12">
+                     <property name="spacing">
+                      <number>0</number>
+                     </property>
+                     <item>
+                      <widget class="QTableWidget" name="playTableWidget"/>
+                     </item>
+                     <item>
+                      <widget class="QWidget" name="unconnectWidget" native="true">
+                       <property name="sizePolicy">
+                        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                         <horstretch>0</horstretch>
+                         <verstretch>0</verstretch>
+                        </sizepolicy>
+                       </property>
+                       <layout class="QGridLayout" name="gridLayout_6">
+                        <property name="leftMargin">
+                         <number>0</number>
+                        </property>
+                        <property name="topMargin">
+                         <number>0</number>
+                        </property>
+                        <property name="rightMargin">
+                         <number>0</number>
+                        </property>
+                        <property name="bottomMargin">
+                         <number>0</number>
+                        </property>
+                        <property name="spacing">
+                         <number>0</number>
+                        </property>
+                        <item row="0" column="0">
+                         <layout class="QVBoxLayout" name="verticalLayout_8">
+                          <property name="spacing">
+                           <number>0</number>
+                          </property>
+                          <item>
+                           <spacer name="verticalSpacer_9">
+                            <property name="orientation">
+                             <enum>Qt::Vertical</enum>
+                            </property>
+                            <property name="sizeType">
+                             <enum>QSizePolicy::Expanding</enum>
+                            </property>
+                            <property name="sizeHint" stdset="0">
+                             <size>
+                              <width>20</width>
+                              <height>101</height>
+                             </size>
+                            </property>
+                           </spacer>
+                          </item>
+                          <item>
+                           <layout class="QHBoxLayout" name="horizontalLayout_10">
+                            <property name="spacing">
+                             <number>0</number>
+                            </property>
+                            <item>
+                             <spacer name="horizontalSpacer_13">
+                              <property name="orientation">
+                               <enum>Qt::Horizontal</enum>
+                              </property>
+                              <property name="sizeHint" stdset="0">
+                               <size>
+                                <width>40</width>
+                                <height>20</height>
+                               </size>
+                              </property>
+                             </spacer>
+                            </item>
+                            <item>
+                             <layout class="QVBoxLayout" name="verticalLayout_7">
+                              <property name="spacing">
+                               <number>0</number>
+                              </property>
+                              <item>
+                               <layout class="QHBoxLayout" name="horizontalLayout_9">
+                                <property name="spacing">
+                                 <number>0</number>
+                                </property>
+                                <item>
+                                 <spacer name="horizontalSpacer_15">
+                                  <property name="orientation">
+                                   <enum>Qt::Horizontal</enum>
+                                  </property>
+                                  <property name="sizeHint" stdset="0">
+                                   <size>
+                                    <width>40</width>
+                                    <height>20</height>
+                                   </size>
+                                  </property>
+                                 </spacer>
+                                </item>
+                                <item>
+                                 <widget class="QLabel" name="unconnectLabel">
+                                  <property name="sizePolicy">
+                                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                                    <horstretch>0</horstretch>
+                                    <verstretch>0</verstretch>
+                                   </sizepolicy>
+                                  </property>
+                                  <property name="minimumSize">
+                                   <size>
+                                    <width>219</width>
+                                    <height>245</height>
+                                   </size>
+                                  </property>
+                                  <property name="maximumSize">
+                                   <size>
+                                    <width>219</width>
+                                    <height>245</height>
+                                   </size>
+                                  </property>
+                                  <property name="text">
+                                   <string/>
+                                  </property>
+                                 </widget>
+                                </item>
+                                <item>
+                                 <spacer name="horizontalSpacer_16">
+                                  <property name="orientation">
+                                   <enum>Qt::Horizontal</enum>
+                                  </property>
+                                  <property name="sizeHint" stdset="0">
+                                   <size>
+                                    <width>40</width>
+                                    <height>20</height>
+                                   </size>
+                                  </property>
+                                 </spacer>
+                                </item>
+                               </layout>
+                              </item>
+                              <item>
+                               <spacer name="verticalSpacer_11">
+                                <property name="orientation">
+                                 <enum>Qt::Vertical</enum>
+                                </property>
+                                <property name="sizeType">
+                                 <enum>QSizePolicy::Fixed</enum>
+                                </property>
+                                <property name="sizeHint" stdset="0">
+                                 <size>
+                                  <width>20</width>
+                                  <height>40</height>
+                                 </size>
+                                </property>
+                               </spacer>
+                              </item>
+                              <item>
+                               <layout class="QHBoxLayout" name="horizontalLayout_7">
+                                <property name="spacing">
+                                 <number>0</number>
+                                </property>
+                                <item>
+                                 <spacer name="horizontalSpacer_5">
+                                  <property name="orientation">
+                                   <enum>Qt::Horizontal</enum>
+                                  </property>
+                                  <property name="sizeHint" stdset="0">
+                                   <size>
+                                    <width>40</width>
+                                    <height>20</height>
+                                   </size>
+                                  </property>
+                                 </spacer>
+                                </item>
+                                <item>
+                                 <widget class="QLabel" name="unconnectTopLabel">
+                                  <property name="sizePolicy">
+                                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                                    <horstretch>0</horstretch>
+                                    <verstretch>0</verstretch>
+                                   </sizepolicy>
+                                  </property>
+                                  <property name="minimumSize">
+                                   <size>
+                                    <width>198</width>
+                                    <height>25</height>
+                                   </size>
+                                  </property>
+                                  <property name="maximumSize">
+                                   <size>
+                                    <width>16777215</width>
+                                    <height>25</height>
+                                   </size>
+                                  </property>
+                                  <property name="text">
+                                   <string>还没连接发射器哦~</string>
+                                  </property>
+                                  <property name="alignment">
+                                   <set>Qt::AlignCenter</set>
+                                  </property>
+                                 </widget>
+                                </item>
+                                <item>
+                                 <spacer name="horizontalSpacer_10">
+                                  <property name="orientation">
+                                   <enum>Qt::Horizontal</enum>
+                                  </property>
+                                  <property name="sizeHint" stdset="0">
+                                   <size>
+                                    <width>40</width>
+                                    <height>20</height>
+                                   </size>
+                                  </property>
+                                 </spacer>
+                                </item>
+                               </layout>
+                              </item>
+                              <item>
+                               <layout class="QHBoxLayout" name="horizontalLayout_8">
+                                <property name="spacing">
+                                 <number>0</number>
+                                </property>
+                                <item>
+                                 <spacer name="horizontalSpacer_11">
+                                  <property name="orientation">
+                                   <enum>Qt::Horizontal</enum>
+                                  </property>
+                                  <property name="sizeHint" stdset="0">
+                                   <size>
+                                    <width>40</width>
+                                    <height>20</height>
+                                   </size>
+                                  </property>
+                                 </spacer>
+                                </item>
+                                <item>
+                                 <widget class="QLabel" name="unconnectBottomLabel">
+                                  <property name="sizePolicy">
+                                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                                    <horstretch>0</horstretch>
+                                    <verstretch>0</verstretch>
+                                   </sizepolicy>
+                                  </property>
+                                  <property name="minimumSize">
+                                   <size>
+                                    <width>126</width>
+                                    <height>25</height>
+                                   </size>
+                                  </property>
+                                  <property name="maximumSize">
+                                   <size>
+                                    <width>16777215</width>
+                                    <height>25</height>
+                                   </size>
+                                  </property>
+                                  <property name="text">
+                                   <string>请连接发射器</string>
+                                  </property>
+                                  <property name="alignment">
+                                   <set>Qt::AlignCenter</set>
+                                  </property>
+                                 </widget>
+                                </item>
+                                <item>
+                                 <spacer name="horizontalSpacer_12">
+                                  <property name="orientation">
+                                   <enum>Qt::Horizontal</enum>
+                                  </property>
+                                  <property name="sizeHint" stdset="0">
+                                   <size>
+                                    <width>40</width>
+                                    <height>20</height>
+                                   </size>
+                                  </property>
+                                 </spacer>
+                                </item>
+                               </layout>
+                              </item>
+                             </layout>
+                            </item>
+                            <item>
+                             <spacer name="horizontalSpacer_14">
+                              <property name="orientation">
+                               <enum>Qt::Horizontal</enum>
+                              </property>
+                              <property name="sizeHint" stdset="0">
+                               <size>
+                                <width>40</width>
+                                <height>20</height>
+                               </size>
+                              </property>
+                             </spacer>
+                            </item>
+                           </layout>
+                          </item>
+                          <item>
+                           <spacer name="verticalSpacer_10">
+                            <property name="orientation">
+                             <enum>Qt::Vertical</enum>
+                            </property>
+                            <property name="sizeHint" stdset="0">
+                             <size>
+                              <width>20</width>
+                              <height>40</height>
+                             </size>
+                            </property>
+                           </spacer>
+                          </item>
+                         </layout>
+                        </item>
+                       </layout>
+                      </widget>
+                     </item>
+                    </layout>
+                   </item>
+                   <item>
+                    <layout class="QHBoxLayout" name="horizontalLayout_11">
+                     <property name="spacing">
+                      <number>20</number>
+                     </property>
+                     <item>
+                      <spacer name="verticalSpacer_2">
+                       <property name="orientation">
+                        <enum>Qt::Vertical</enum>
+                       </property>
+                       <property name="sizeType">
+                        <enum>QSizePolicy::Fixed</enum>
+                       </property>
+                       <property name="sizeHint" stdset="0">
+                        <size>
+                         <width>20</width>
+                         <height>100</height>
+                        </size>
+                       </property>
+                      </spacer>
+                     </item>
+                     <item>
+                      <spacer name="horizontalSpacer_7">
+                       <property name="orientation">
+                        <enum>Qt::Horizontal</enum>
+                       </property>
+                       <property name="sizeHint" stdset="0">
+                        <size>
+                         <width>40</width>
+                         <height>20</height>
+                        </size>
+                       </property>
+                      </spacer>
+                     </item>
+                     <item>
+                      <widget class="QPushButton" name="playBtn">
+                       <property name="sizePolicy">
+                        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                         <horstretch>0</horstretch>
+                         <verstretch>0</verstretch>
+                        </sizepolicy>
+                       </property>
+                       <property name="minimumSize">
+                        <size>
+                         <width>88</width>
+                         <height>88</height>
+                        </size>
+                       </property>
+                       <property name="maximumSize">
+                        <size>
+                         <width>88</width>
+                         <height>88</height>
+                        </size>
+                       </property>
+                       <property name="text">
+                        <string/>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QPushButton" name="stopBtn">
+                       <property name="sizePolicy">
+                        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                         <horstretch>0</horstretch>
+                         <verstretch>0</verstretch>
+                        </sizepolicy>
+                       </property>
+                       <property name="minimumSize">
+                        <size>
+                         <width>88</width>
+                         <height>88</height>
+                        </size>
+                       </property>
+                       <property name="maximumSize">
+                        <size>
+                         <width>88</width>
+                         <height>88</height>
+                        </size>
+                       </property>
+                       <property name="text">
+                        <string/>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QPushButton" name="loopPlayBtn">
+                       <property name="minimumSize">
+                        <size>
+                         <width>88</width>
+                         <height>88</height>
+                        </size>
+                       </property>
+                       <property name="maximumSize">
+                        <size>
+                         <width>88</width>
+                         <height>88</height>
+                        </size>
+                       </property>
+                       <property name="text">
+                        <string/>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <spacer name="horizontalSpacer_17">
+                       <property name="orientation">
+                        <enum>Qt::Horizontal</enum>
+                       </property>
+                       <property name="sizeHint" stdset="0">
+                        <size>
+                         <width>40</width>
+                         <height>20</height>
+                        </size>
+                       </property>
+                      </spacer>
+                     </item>
+                    </layout>
+                   </item>
+                  </layout>
+                 </item>
+                 <item>
+                  <spacer name="horizontalSpacer_4">
+                   <property name="orientation">
+                    <enum>Qt::Horizontal</enum>
+                   </property>
+                   <property name="sizeType">
+                    <enum>QSizePolicy::Fixed</enum>
+                   </property>
+                   <property name="sizeHint" stdset="0">
+                    <size>
+                     <width>20</width>
+                     <height>20</height>
+                    </size>
+                   </property>
+                  </spacer>
+                 </item>
+                </layout>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="res/res.qrc"/>
+ </resources>
+ <connections/>
+</ui>

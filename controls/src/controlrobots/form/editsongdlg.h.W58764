@@ -1,0 +1,69 @@
+﻿#ifndef EDITSONGDLG_H
+#define EDITSONGDLG_H
+
+#include "ccustomdialog.h"
+#include "cpubfun.h"
+
+QT_BEGIN_NAMESPACE
+class CTitleWidget;
+class QNetworkAccessManager;
+QT_END_NAMESPACE
+
+namespace Ui {
+class CEditSongDlg;
+}
+
+/**
+ * @brief 歌曲编辑
+ */
+
+class CEditSongDlg : public XDialog
+{
+    Q_OBJECT
+
+public:
+    explicit CEditSongDlg(QWidget *parent = 0);
+    ~CEditSongDlg();
+
+public:
+    void init ();
+    void initVar ();
+    void initSongTableWidget ();
+    void createTitleWidget ();
+    void initWindows ();
+    void initAction ();
+    void layout();
+
+protected:
+    void refreshSongTableWidget ();
+    void addRow (int nType, const QString& strFileName, tagMusicInfo* p);
+    int  getSelRows (QList<int> &rows); /**< 获取选择的行 */
+    void refreshSyncState ();           /**< 刷新同步按钮等待状态 */
+
+public slots:
+    void slotUpdate();                  /**< 更新 */
+    void slotAdd();                     /**< 添加 */
+    void slotSave ();                   /**< 保存 */
+    void slotDownload ();               /**< 下载文件 */
+    void slotSync ();                   /**< 同步至机器人 */
+    void slotAddSyncRow ();             /**< 按钮触发同步 */
+    void startSync ();                  /**< 执行同步操作 */
+    void slotOpenDir ();                /**< 打开文件夹 */
+    void slotDelete ();                 /**< 删除文件夹 */
+    void slotEdit();                    /**< 编辑歌曲 */
+    void slotTableCustomContextMenuRequested(QPoint pos);
+    void slotRemoveRow();               /**< 删除行 */
+    void slotRefreshMusicInfo (int nMusicType, const QString& musicName, tagMusicInfo* pMusic);
+
+protected:
+    virtual void closeEvent(QCloseEvent *event);
+
+private:
+    Ui::CEditSongDlg*      ui;
+    CTitleWidget*          m_pTitleWidget;
+    QTypeMusicInfoMap      m_mapSongInfo;
+    QNetworkAccessManager* m_manager;
+    QList<int>             m_listUsbSync;       /**< 待同步列表 */
+};
+
+#endif // EDITSONGDLG_H
